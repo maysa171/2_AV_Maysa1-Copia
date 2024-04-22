@@ -11,7 +11,7 @@
     <?php 
     $valor = $_GET["valor"];
     $dolar = 5.20;
-    $conv = ($valor / $dolar);
+    $conv = $valor / $dolar;
 
     echo "O valor em dolar é: UU$ $conv";
 
